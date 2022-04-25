@@ -1,0 +1,60 @@
+nav {
+  background-color:#333333;
+}
+
+html {
+  height: 100%;
+  padding-top: 50px;
+}
+hr {
+  color: #c28a6e;
+}
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background: linear-gradient(rgba(51, 51, 51, 0.7), rgba(51, 51, 51, 0.7)), url('../img/img_parallax.jpg') no-repeat top center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#masthead-text {
+  color:white;
+}
+
+#about,#references {
+  background-color: #c28a6e;
+}
+#about {
+  color: #ffffff;
+}
+#references {
+  color: #333333;
+}
+#left{
+  background-color: #333333;
+  color:#ffffff;
+}
+#right {
+  background-color:#ffffff;
+  color: #333333;
+}
+
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333333;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
+
+.social-link:hover, .social-link:focus {
+    background: #ffffff;
+    text-decoration: none;
+    color: #333333;
+}
